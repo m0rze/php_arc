@@ -1,0 +1,59 @@
+.errors {
+    color: red;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.order_form {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 2px solid darkslategrey;
+    border-radius: 20px;
+}
+
+.form_fields {
+    padding: 25px;
+}
+
+.order_form_input_phone {
+    margin-top: 25px;
+}
+
+.order_form_input_email {
+    margin-top: 25px;
+}
+
+.order_cat_select {
+    margin-top: 25px;
+}
+
+.master_select {
+    margin-top: 25px;
+}
+
+.date_selection {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.date_picker {
+    padding-right: 10px;
+}
+
+.submit_order {
+    margin-top: 25px;
+}
+
+.success_message {
+    text-align: center;
+    padding: 50px;
+    color: forestgreen;
+    font-size: larger;
+    font-weight: bolder;
+}

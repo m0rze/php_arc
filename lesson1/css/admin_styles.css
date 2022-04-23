@@ -1,0 +1,81 @@
+.dm-container{
+    max-width: 600px;
+    margin: 25px;
+}
+
+.add-new-cat {
+    padding-top: 25px;
+}
+.add-cat-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.cat-name-input {
+    margin-right: 25px;
+}
+
+.master-select {
+    margin-right: 25px;
+}
+
+.cats-list {
+    padding-top: 100px;
+}
+
+.cats-list-ul {
+    list-style-type: none;
+}
+
+.cat-list-item {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.delete-cat {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.delete-cat:hover {
+    cursor: pointer;
+}
+
+.span-cat-name-masters{
+    color: royalblue;
+}
+
+.orders_table {
+    width: 800px;
+}
+
+.th_data {
+    color: royalblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.orders_table, .th_data, .tr_data, .td_data {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tr_data {
+    white-space: nowrap;
+}
+
+.td_data {
+    padding: 10px;
+    text-align: center;
+}
+
+.td_when_time {
+    color: forestgreen;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.delete-order:hover {
+    cursor: pointer;
+}
